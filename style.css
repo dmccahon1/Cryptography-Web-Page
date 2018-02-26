@@ -1,0 +1,156 @@
+/*---NAV---*/
+ul {
+    list-style-type: none;
+	height: 60px;
+    margin: 0;
+	margin-left: 0;
+    padding-left: 20%;
+    overflow: hidden;
+    background-color: #373737;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 20px;
+    text-decoration: none;
+	font-size: 15px;
+}	
+
+li a:hover {
+    background-color: #90845d;
+}
+
+.active {
+    background-color: #90845d;
+}
+
+/*---NAV END---*/
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 16px;
+}
+.content_container {
+	border-radius: 25px;
+	border-style: 1px solid #F4F4F4;
+	background-color: #F4F4F4;
+	margin-top: -100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	padding: 5px 25px 5px 25px;
+	
+}
+
+html {
+	height:100%;
+}
+
+header {
+	
+	background-color: #C0B283;
+	height: 250px;
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 38px;
+	text-align: center;
+	border-bottom: 1px solid #afa06c;
+}
+
+body {
+	height: 10%;
+	background-color: #dcd0c0;
+	margin: 0px;
+	font-family: Verdana;
+	font-size: 13px;
+	color: #444242;
+	
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #373737;
+	padding-top:5px;
+	padding-left: 20%;
+	color: white;
+	position: fixed;
+
+	
+}
+
+img#caesargif {
+	display: block;
+	 margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.caesar_form {
+	display: table;
+	width: 200px;
+}
+
+textarea{
+	display: block;
+	width: 390px;
+	height: 150px;
+	margin: 10px;
+}
+
+textarea#vignere_text{
+	width: 650px;
+	height: 200px;
+}
+
+table {
+	width: 1120px;
+	margin-left: -20px;
+	margin-right: 100px;
+}
+
+button {
+    background-color: #C0B283;
+    border: none;
+    color: #444242;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+	width = 150px;
+	font-weight: bold;
+}
+
+
+button#caesar_decrypt{ 
+	margin-bottom: 40px;
+}
+

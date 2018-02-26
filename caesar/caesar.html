@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css" type="text/css"/>
+		<script type="text/javascript" src="caesar.js"></script>
+		<ul>
+			<li><a  href="../index.html">Home</a></li>
+			<li><a href="../design.html">Design</a></li>
+			<li><a href="../rot13/rot13.html">Rot13</a></li>
+			<li><a class="active" href="caesar.html">Caesar</a></li>
+		</ul>
+		<header>
+			<h1>SET08107 Web Technologies</h1>
+			<h2>Coursework Submission 1</h2>
+		</header>	
+	</head>
+	
+	<body>
+	
+			
+		<div class="content_container">
+			<h3>Caesar</h3>
+			<p>
+			Caesar Cipher is a method of encryption which uses shifts in the alphabet to change a string of characters
+			into a hidden message.  The method takes the alphabet and shifts the letters x places right 
+			to create the encrypted test. <br /><br />
+			
+			For example, a Caesar shift of 3 with the string "da" gives the encrypted text "gd" as illustrated below.
+			<br /><br />
+			<img src ='caesar.gif'>
+			</p>
+			
+			<!---ENCRYPTION START--->
+			
+			<table>
+				<col width="410">
+				<col width="300">
+				<col width="410">
+				<tr>
+					<th><h4>Plaintext<h4></th>
+					<th></th>
+					<th><h4>Ciphertext<h4></th>
+				</tr>
+				<tr>
+					<td>
+						<textarea rows="1", cols="50" autofocus id="caesar_encrypt" align="right"></textarea>
+					</td>
+					<td>
+						<label for="shift"><b style="margin-left:85px">Shift:</b></label>
+						<select id="shift" name="shift">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+						</select><br />
+						<br /><button type="button" onclick="caesar_encrypt()" id="encode_button">Encrypt</button><br />
+						<button type="button" onclick="caesar_decrypt()" id="encode_button">Decrypt</button> </td>
+					<td>
+						<textarea rows="1", cols="50" autofocus id="caesar_decrypt" align="right"></textarea><br />
+					</td>
+     
+				</tr>
+</table>
+
+			
+		
+
+		</div>
+	</body>
+	<footer>
+		<p>David McCahon (40214392)</p>
+	</footer>
+</html>

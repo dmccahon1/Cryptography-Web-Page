@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css" type="text/css"/>
+		<script type="text/javascript" src="rot13.js"></script>
+		<header>
+			<h1>SET08107 Web Technologies</h1>
+			<h2>Coursework Submission 1</h2>
+		</header	
+	</head>
+	<body>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../design.html">Design</a></li>
+			<li><a class="active" href="rot13.html">Rot13</a></li>
+			<li><a href="../caesar/caesar.html">Caesar</a></li>
+		</ul>
+			
+		<div class="content_container">
+			<h3>Rot13</h3>
+			<p>
+			Rot13 is a substitution cipher that replaces a letter with 13 letters after it. Rot13 uses exactly half of the alphabet and therefore only two shifts are possible.<br /><br />
+			
+			In the real world, Rot13 is used on online forums as a mean for competitions, games, hiding spoilets, puzzle solutions and hiding offensive material.<br /><br />
+			
+			<img src ='rot13.png' width = 600 height = 150>
+			</p>
+			
+			<!---ENCRYPTION START--->
+			
+			<table>
+				<col width="410">
+				<col width="300">
+				<col width="410">
+				<tr>
+					<th><h4>Plaintext<h4></th>
+					<th></th>
+					<th><h4>Ciphertext</h4></th>
+				</tr>
+				<tr>
+					<td>
+						<textarea rows="1", cols="50" autofocus id="caesar_encrypt" align="right"></textarea>
+					</td>
+					<td>
+						
+						<br /><button type="button" onclick="caesar_encrypt()" id="encode_button">Encrypt</button><br />
+						<button type="button" onclick="caesar_decrypt()" id="encode_button">Decrypt</button> </td>
+					<td>
+						<textarea rows="1", cols="50" autofocus id="caesar_decrypt" align="right"></textarea><br />
+					</td>
+     
+				</tr>
+</table>
+
+			
+		
+
+		</div>
+	</body>
+	<footer>
+		<p>Author: David McCahon (40214392)</p>
+	</footer>
+</html>
